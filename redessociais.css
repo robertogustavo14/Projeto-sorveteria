@@ -1,0 +1,113 @@
+/* Importando Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* Formatação e adicionando fonte */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+/* Background Principal */
+body {
+    background-color: #FBD4B3;
+}
+/* definindo tamanho e dando background ao cabeçalho */
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #1A1717;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+}
+/* Aplicando Flex-Box */
+ul {
+    width: 90%;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Formatando botôes*/
+li {
+    background-color: #ED5656;
+    padding: 1em;
+    border-radius: 90px;
+}
+/* Dando efeito ao passar o Mouse */
+li:hover {
+    background-color: #e6c532;
+}
+/* aplicando tamanho da fonte e cor */
+li a {
+    color: #f1f1f1;
+    font-size: 1em;
+}
+/* Dando efeito ao passar o Mouse na letra */
+li a:hover {
+    color: #1A1717;
+}
+/* Configurando cor e espaçamento */
+main {
+    margin: 30vh auto;
+    border: 1px solid red;
+    width: 90%;
+    background-color: rgba(252, 231, 183,0.7);
+    border-radius: 25px;
+}
+
+.Foto img {
+    border-radius: 600px;
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+    z-index: 0;
+}
+
+.titulo {
+    margin-left: 850px;
+    margin-top: 75px;
+    font-size: 40px;
+}
+
+.info {
+    background-color: #ED5656;
+    margin-top: 150px;
+    font-size: 31px;
+    text-align: center;
+    color: #FCE1B6;
+    padding: 25px;
+}
+
+.insta {
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.foto2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teste1 {
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+
+.teste3 {
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
