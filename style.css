@@ -1,5 +1,6 @@
 /* Importando Fonte */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 /* Formatação e adicionando fonte */
 * {
     padding: 0;
@@ -8,10 +9,12 @@
     list-style: none;
     text-decoration: none;
 }
+
 /* Background Principal */
 body {
     background-color: #FBD4B3;
 }
+
 /* definindo tamanho e dando background ao cabeçalho */
 header {
     width: 100%;
@@ -23,6 +26,7 @@ nav {
     width: 100%;
     height: 10vh;
 }
+
 /* Aplicando Flex-Box */
 ul {
     width: 90%;
@@ -33,41 +37,41 @@ ul {
     justify-content: space-between;
     align-items: center;
 }
+
 /* Formatando botôes*/
 li {
     background-color: #ED5656;
     padding: 1em;
     border-radius: 90px;
 }
+
 /* Dando efeito ao passar o Mouse */
 li:hover {
     background-color: #e6c532;
 }
+
 /* aplicando tamanho da fonte e cor */
 li a {
     color: #f1f1f1;
     font-size: 1em;
 }
+
 /* Dando efeito ao passar o Mouse na letra */
 li a:hover {
     color: #1A1717;
 }
+
 /* Configurando cor e espaçamento */
 main {
     height: 100%;
     margin: 20vh auto;
     width: 80%;
-    background-color: rgba(252, 231, 183,0.7);
+    background-color: rgba(252, 231, 183, 0.7);
     border-radius: 25px;
     align-items: center;
 }
 
-.titulo {
-    font-size: 50px;
-    text-align: center;
-    padding-top: 50px;
-}
-
+/* Formatação Título */
 .align-center {
     font-size: 40px;
     text-align: center;
@@ -83,7 +87,7 @@ h2 {
 #login_cadastro {
     width: 80%;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-left: auto;
@@ -102,7 +106,7 @@ h2 {
 
 .cabecalho-login_cadastro {
     display: flex;
-    background:#E25252;
+    background: #E25252;
     width: 550px;
     height: 80px;
     border-radius: 45px 45px 0px 0px;
@@ -188,9 +192,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-} 
-
-
+}
 
 .botoes-rsociais li {
 
@@ -198,6 +200,7 @@ h2 {
     border-radius: 15px;
     background-color: #F5BBBB;
 }
+
 .botoes-rsociais a {
     color: #000;
 }
@@ -208,7 +211,6 @@ h2 {
     display: flex;
     position: relative;
     margin-bottom: 20px;
-    
 }
 
 .promocao article {
@@ -221,6 +223,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+
 .formatacao-img {
     display: flex;
     width: 50%;
@@ -293,7 +296,7 @@ h2 {
     padding: 25px;
 }
 
-.fotosp{
+.fotosp {
     height: 100%;
     width: 300px;
     border-radius: 15px 0px 0px 15px;
@@ -352,7 +355,7 @@ h2 {
 }
 
 .insta {
-    display: flex;  
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
